@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>I love you</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        /*
+        let textElement = document.getElementById("text");
+        let i = 0;
+        while(true) {
+            switch(i){
+                case 0:
+                    textElement.style.color = "red";
+                    break;
+                case 1:
+                    textElement.style.color = "green";
+                    break;
+            }
+        }
+        */
+
+        function appendFunction(elementId, letter) {
+            const element = document.getElementById(elementId);
+            setInterval(function() {
+                element.innerText += letter;
+            }, 0.1);
+        }
+
+        window.onload = function() {
+            appendFunction('text', 's');
+        }
+    </script>
+</head>
+<body>
+    <div id="main">
+        <h1>I love you...</h1>
+        <p id="text">thiss</p>
+        <h1>much!</h1>
+    </div>
+    <audio controls autoplay>
+        <source src="song.mp3">
+    </audio>
+</body>
+</html>

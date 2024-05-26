@@ -1,0 +1,29 @@
+body {
+    width: 100%;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: maroon;
+}
+#main {
+    width:80%;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+    color:white;
+}
+h1 {
+    width:100%;
+    text-align: center;
+}
+#text {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    word-wrap: normal;
+    width:100%;
+    word-break:break-all;
+    white-space: normal;
+}
+audio {
+    visibility: hidden;
+}
